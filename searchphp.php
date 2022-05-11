@@ -83,7 +83,7 @@ $data4 = $stmt4->fetchAll(PDO::FETCH_ASSOC);
 <body>
 
         <div class="form-group">
-            <span class="error" style="color:red;"> <?php echo $searchErr;?></span>
+            <span class="error" style="color:red;"><?php echo $searchErr;?></span>
         </div>
          
     </div>
@@ -142,15 +142,11 @@ $data4 = $stmt4->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     <tr>
                          
-                        <td style="color:white ;" ><?php echo $value['title'];?></td>
-                    
-                   
-                        
-        
+                        <td style="color:white ;" ><?php echo $value['title'];?></td>        
                     </tr>
-                         
                         <?php
                     }
+                    
                     foreach($data4 as $key=>$value)
                     
                     {
