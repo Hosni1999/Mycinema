@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body{
+    background: url(PeakyBlinders.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{
+    color:white ;
+}
+h1{
+    text-align: center; 
+    color:white ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    float: center;
+    padding: 6px;
+    border: white;
+    border-width: 10px;;
+    border-radius: 10px;
+    
+    
+   
+    font-size: 17px;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+    body
+    {
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+
+.form-group{
+    border-radius: 10px;
+}
+
+button{
+    
+        background: #520000;
+        color: white;
+        border-style: outset;
+        border-color: #060606;
+        border-radius: 10px;
+        padding: 6px;
+
+        width: 100px;
+        font: arial,sans-serif;
+        text-shadow: none;
+        padding-left: auto;
+}
+        @font-face {
+            font-family: myFirstFont;
+            src: url(TheCircous.ttf);
+        }
+        h1{
+            font-family:myFirstFont ;
+        }
+      .data{
+          font-size: 100px;
+      }
+      button:hover{
+          background-color: grey;
+      }
+ a     
+{
+  border:  1px white;
+  padding: 5px;
+  margin: 5px;
+text-align: center;
+  border-radius: 10px;
+color: white;
+}
+td{
+    font-size: 20px;
+    background-color: #060606;
+    width: 500px;
+}
+ul{
+    list-style: none;
+}
