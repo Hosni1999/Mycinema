@@ -72,7 +72,7 @@ $data4 = $stmt4->fetchAll(PDO::FETCH_ASSOC);
     <div class="row">
         <div class="navbar">
           <ul class="menu">
-            <li><input  type="text" class="form-control" name="search" size=50 placeholder="search here"><button  type="submit" name="save" class="btn btn-success btn-sm" >SEARCH</button></span></li>
+            <li><input  type="text" class="form-control" name="search" size=50 placeholder="search Your Movie Or Users"><button  type="submit" name="save" class="btn btn-success btn-sm" >SEARCH</button></span></li>
            
 
             <a href="subcription.php"><li>SUBSCRIPTION</li></a>
